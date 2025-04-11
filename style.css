@@ -1,0 +1,11 @@
+.grid_container > div {
+	border: 4px black double;
+	font-family: sans-serif;
+	font-size: 32px;
+	color: red;
+
+.gird_container{
+	display: grid;
+	grid-template-columns:100px 200px 300px;
+	grid-template-rows: 10px 200px 300px;
+	grid-gap:20px;
